@@ -48,6 +48,9 @@
     text-align: center;
     background-color: rgb(231, 180, 197);
 }
+.Group-work{
+    text-align: center;
+}
 
 
 @media only screen and (max-width: 750px){
