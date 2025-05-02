@@ -1,0 +1,91 @@
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.book-review{
+    text-align: right;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.fa-star-of-life{
+    position: absolute;
+    right: 250px;
+    top: 32px;
+    color: rgb(162, 162, 230);
+}
+.heading{
+    text-align: center;
+    color: rgb(23, 185, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+}
+.body{
+    display: flex;
+    gap: 0%;
+    padding-left: 50px;
+    background-image: url(images/Untitled-design-4-1.jpeg);
+    background-size: cover;
+}
+.blog{
+    border: 1px double;
+    width: 70vw;
+    height: 80vh;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+.image{
+    width: 50vw;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+.quote{
+    text-align: center;
+    background-color: rgb(231, 180, 197);
+}
+
+
+@media only screen and (max-width: 750px){
+    .container{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+    .book-review{
+        font-size: large;
+    }
+    .fa-star-of-life{
+        position: absolute;
+        left: 200px;
+        top: 30px;
+    }
+    .heading{
+        font-size: medium;
+    }
+    .body{
+        padding: 0;
+        display: inline-block;
+        display: contents;
+    }
+    .blog{
+        width: 95vw;
+        font-weight: 400;
+        height: 80vh;
+        font-size: small;
+        border-radius: 3%;
+    }
+    .image{
+        width: 95vw;
+        border: 1px solid;
+    }
+    .quote{
+        width: 95vw;
+        flex-wrap: wrap;
+    }
+}
